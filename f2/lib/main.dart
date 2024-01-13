@@ -1,3 +1,5 @@
+import 'package:f2/form.dart';
+import 'package:f2/form_example.dart';
 import 'package:f2/main_page.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  MainPage(),
+      home:  FormExample(),
       debugShowCheckedModeBanner: false,
     );
   }
